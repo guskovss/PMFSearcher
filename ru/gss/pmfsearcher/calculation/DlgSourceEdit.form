@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jbtnOk" min="-2" pref="74" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbtnCancel" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbtnOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtnCancel" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jbtnOk">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="ru.encotes.armidexpress.DlgDiameterEdit" id="acOk" methodName="acOk"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jbtnOk" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCancel">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="ru.encotes.armidexpress.DlgDiameterEdit" id="acCancel" methodName="acCancel"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jbtnCancel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x413;&#x435;&#x43e;&#x43c;&#x435;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x438;&#x435; &#x43f;&#x430;&#x440;&#x430;&#x43c;&#x435;&#x442;&#x440;&#x44b;">
+              <Property name="titleX" resourceKey="jPanel1.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlbCoordAngular" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbCoordLinear" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbLengthLinear" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbLengthAngular" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbStepLinear" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbStepAngular" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="102" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jftfStepAngular" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfStepLinear" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfLengthAngular" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfLengthLinear" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfCoordLinear" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfCoordAngular" alignment="0" pref="81" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbCoordLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jftfCoordLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbCoordAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jftfCoordAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftfLengthLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbLengthLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftfLengthAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbLengthAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbStepLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jftfStepLinear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbStepAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jftfStepAngular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbCoordLinear">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbCoordLinear.text"/>
+            <Property name="name" type="java.lang.String" value="jlbCoordLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfCoordLinear">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfCoordLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbCoordAngular">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbCoordAngular.text"/>
+            <Property name="name" type="java.lang.String" value="jlbCoordAngular" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfCoordAngular">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfCoordAngular" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbLengthLinear">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbLengthLinear.text"/>
+            <Property name="name" type="java.lang.String" value="jlbLengthLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfLengthLinear">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfLengthLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbLengthAngular">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbLengthAngular.text"/>
+            <Property name="name" type="java.lang.String" value="jlbLengthAngular" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfLengthAngular">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfLengthAngular" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbStepLinear">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbStepLinear.text"/>
+            <Property name="name" type="java.lang.String" value="jlbStepLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfStepLinear">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfStepLinear" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbStepAngular">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbStepAngular.text"/>
+            <Property name="name" type="java.lang.String" value="jlbStepAngular" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfStepAngular">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfStepAngular" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x41d;&#x430;&#x43c;&#x430;&#x433;&#x43d;&#x438;&#x447;&#x435;&#x43d;&#x43d;&#x43e;&#x441;&#x442;&#x44c;">
+              <Property name="titleX" resourceKey="jPanel2.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlbMagnetizationX" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbMagnetizationY" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbMagnetizationZ" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="165" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jftfMagnetizationZ" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfMagnetizationY" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jftfMagnetizationX" alignment="0" pref="79" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftfMagnetizationX" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbMagnetizationX" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftfMagnetizationY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbMagnetizationY" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftfMagnetizationZ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbMagnetizationZ" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbMagnetizationX">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbMagnetizationX.text"/>
+            <Property name="name" type="java.lang.String" value="jlbMagnetizationX" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfMagnetizationX">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfMagnetizationX" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbMagnetizationY">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbMagnetizationY.text"/>
+            <Property name="name" type="java.lang.String" value="jlbMagnetizationY" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfMagnetizationY">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfMagnetizationY" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbMagnetizationZ">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jlbMagnetizationZ.text"/>
+            <Property name="name" type="java.lang.String" value="jlbMagnetizationZ" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jftfMagnetizationZ">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jftfMagnetizationZ" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
